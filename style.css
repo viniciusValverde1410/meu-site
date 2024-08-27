@@ -27,8 +27,13 @@ body {
     font-size: 10px;
 }
 
+.preencha {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
+    padding: 20px;
 }
 
 h3 {
@@ -38,6 +43,7 @@ h3 {
 
 h5 {
     text-align: center;
+    font-size: medium;
 }
 
 .corintia {
@@ -49,11 +55,17 @@ h5 {
     text-align: center;
 }
 
+.escudo {
+    height: auto;
+}
+
 p {
     text-align: justify;
-    padding: auto;
     font-size:17px;
-    padding: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 0px;
+
 }
 
 img {
@@ -69,6 +81,12 @@ h2 {
 .rede {
     width: 500px;
     height: auto;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 form textarea {
@@ -106,10 +124,11 @@ form button:hover {
 }
 
 .dev {
-    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: justify;
 }
 
 .eu {
